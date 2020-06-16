@@ -1,0 +1,13 @@
+package TestPacage;
+import 'Test'(org.testing.annotations)
+public class Class1 {
+	
+	@Test
+	
+	public void one() {
+		
+		
+	}
+	
+
+}

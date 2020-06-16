@@ -1,0 +1,13 @@
+package TestNG;
+
+public class TestNGParmeter {
+	
+	
+	public void Test( String name) {
+		
+		
+		System.out.println("Name is " + name );
+		
+	}
+
+}

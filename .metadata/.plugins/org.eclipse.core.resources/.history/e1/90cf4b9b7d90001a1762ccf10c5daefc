@@ -1,0 +1,13 @@
+package TestPacage;
+
+public class Class1 {
+	
+	@Test
+	
+	public void one() {
+		
+		
+	}
+	
+
+}

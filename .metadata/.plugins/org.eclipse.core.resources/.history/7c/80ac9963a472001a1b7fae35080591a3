@@ -1,0 +1,19 @@
+package TestNG;
+
+import org.junit.Test;
+
+import com.beust.jcommander.Parameter;
+
+public class TestNGParmeter {
+	
+	
+	
+	@Test
+	@Parameter
+	public void Test( String name) {
+			
+		System.out.println("Name is " + name );
+		
+	}
+
+}

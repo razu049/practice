@@ -1,0 +1,33 @@
+package TestNG;
+
+import org.junit.Before;
+import org.testng.DependencyMap;
+import org.testng.annotations.Test;
+
+public class TestNGDepedency {
+	
+	
+	
+@Test
+	public void test1(Depedency = {"test"}) {
+		System.out.println("im test 1");
+		
+	}
+	
+	
+  @Test
+	public void test2(depenOnMethods= {"test}") {
+		System.out.println("im test 1");
+		
+	}
+
+	@Test
+
+	public void test3() {
+		System.out.println("im test 3");
+		
+	}
+	
+	
+	
+}

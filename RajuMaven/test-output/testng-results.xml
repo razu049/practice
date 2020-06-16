@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="82" started-at="2020-06-01T12:12:12 EDT" finished-at="2020-06-01T12:12:12 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="82" started-at="2020-06-01T12:12:12 EDT" finished-at="2020-06-01T12:12:12 EDT">
+      <class name="Testmaven">
+        <test-method status="PASS" signature="ForLoop()[pri:0, instance:Testmaven@6ddf90b0]" name="ForLoop" duration-ms="19" started-at="2020-06-01T12:12:12 EDT" finished-at="2020-06-01T12:12:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForLoop -->
+        <test-method status="PASS" signature="WhileLoop()[pri:0, instance:Testmaven@6ddf90b0]" name="WhileLoop" duration-ms="0" started-at="2020-06-01T12:12:12 EDT" finished-at="2020-06-01T12:12:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhileLoop -->
+      </class> <!-- Testmaven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

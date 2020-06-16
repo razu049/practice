@@ -1,0 +1,26 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class multipleWindows {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Home\\Documents\\Driver\\chromedriver.exe");
+				WebDriver driver =new ChromeDriver();
+					
+
+		//WebDriver driver =new FirefoxDriver();
+		driver.get("https://account.google.com/signup");
+		driver.findElement(By.xpath("html/body/dv[1]/div[2]/div/[1]/p/a")).click();
+		
+		
+	}
+
+}

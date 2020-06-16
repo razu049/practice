@@ -1,0 +1,47 @@
+package Test;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class GoogleSearch2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//googleSearch();}
+	 
+		
+		WebDriver driver= null;
+		//public static void googleSearch() {
+		
+		By textbox_search =By.id("1st-ib");
+		By button_search = By.name("btnk");
+		
+		
+		public   void setTextInSearchBox(String text) {
+			
+			driver.findElement(By.className("q"));
+			
+		}
+		
+		
+		
+		public void  clicksearchButton ( ) {
+			
+			driver.findElement(button_search)).sendKeys(text);
+		}
+		/*
+		 * System.setProperty("webdriver.chrome.driver",
+		 * "C:\\Users\\Home\\Documents\\Driver\\chromedriver.exe"); WebDriver driver =
+		 * new ChromeDriver();
+		 * 
+		 * 
+		 * driver.get("https://google.com");
+		 * driver.findElement(By.name("q")).sendKeys("mylinknp");
+		 */
+			
+		}
+
+	}
+
+
